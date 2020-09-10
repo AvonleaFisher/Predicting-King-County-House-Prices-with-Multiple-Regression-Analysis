@@ -6,9 +6,9 @@ The aim of this analysis is to build a multiple regression model that can predic
 ### Data
 The King County Housing Data Set contains information about the size, location, condition, and other features of houses in Washington's King County. The dataset and variable descriptions can be found on <a href ="https://www.kaggle.com/harlfoxem/housesalesprediction">Kaggle</a>.
 ## Methods
-After exploring and preprocessing the data, simple and multiple linear regression models were built in OLS statsmodels, with price as the dependent variable. Sqft_living, grade, bathrooms and sqft_living15 were chosen for the first model with a .80 correlation cutoff for multicollinearity. The second model included only sqft_living and grade with a .75 correlation cutoff. 
+After exploring and preprocessing the data, simple and multiple linear regression models were built in OLS statsmodels, with price as the dependent variable. Sqft_living, grade, bathrooms and sqft_living15 were chosen for the first model with a .80 correlation cutoff for multicollinearity. The second model included grade, bathrooms and sqft_living15 with a .75 correlation cutoff. The third and final model included only sqft_living and grade, which have a correlation just above .75, as predictors.
 ## Results
-Both models satisfied all multiple regression assumptions and p-values for each predictor variable were below .05. The r-squared value of the first model (.53) was higher than that of the second model (.51). The first model was chosen for final validation because of its greater predictive power.
+The third model satisfied all multiple regression assumptions, and p-values for each predictor variable were below .05. The r-squared value of the model was .529.
 ## Recommendations 
 Homeowners interested in selling their homes should focus on improving the design and quality of construction of their homes, which may in turn improve their home grade. If possible, they should also expand the square footage of living space on the lot, perhaps by building additional bathrooms. The square footage of neighbors' living space is also a strong positive predictor of price, but homeowners likely have less control over this factor. Homeowners may further increase the sale price of their homes by encouraging neighbors to also expand the square footage of their living space. 
 ## Limitations and Next Steps
