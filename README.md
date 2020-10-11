@@ -1,4 +1,3 @@
-# For Bigger Bucks, Build a Bigger House
 ## Predicting King County House Prices with Multiple Regression  Analysis
 <b>Author:</b> Avonlea Fisher
 ### Problem:
