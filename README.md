@@ -1,5 +1,7 @@
 ## Predicting King County House Prices with Multiple Regression  Analysis
 <b>Author:</b> Avonlea Fisher
+
+<b>Blog Post:</b> https://medium.com/analytics-vidhya/predicting-king-county-house-prices-with-multiple-linear-regression-84de5feeafb2
 ### Problem:
 The aim of this analysis is to build a multiple regression model that can predict house prices with the greatest accuracy possible. The results can inform home owners interested in selling their homes about the most important factors to consider for improving sale prices.
 ### Data
@@ -8,6 +10,7 @@ The King County Housing Data Set contains information about the size, location, 
 After exploring and preprocessing the data, simple and multiple linear regression models were built in OLS statsmodels, with price as the dependent variable. 
 ## Results
 Together, square footage, grade and bathrooms are the best predictors of a house's price in King County. These features were included in the final multiple regression model. The model satisfied all multiple regression assumptions, and p-values for each predictor variable were below .05. The r-squared value of the model was .529.
+
 <img src="https://github.com/AvonleaFisher/Predicting-King-County-House-Prices-with-Multiple-Regression-Analysis/blob/master/correlates_with_price.png">
 > Features were selected based on the strength of their linear relationship with price, and multicollinear features were excluded.
 ## Recommendations 
@@ -17,4 +20,4 @@ The model does have some limitations: given that some of the variables needed to
 
 Future analysis should explore the best predictors of the prices of homes outside of King County, as well as homes with extreme price values.
 ### For further information
-<a href ="https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r">King County Residential Glossary of Terms</a>
+Please consult the <a href ="https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r">King County Residential Glossary of Terms</a> for further information about the data. For inquiries about this project, please contact me at fisheravonlea@gmail.com or via my [LinkedIn profile](https://www.linkedin.com/in/avonlea-fisher/).
