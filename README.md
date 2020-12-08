@@ -8,6 +8,8 @@ The King County Housing Data Set contains information about the size, location, 
 After exploring and preprocessing the data, simple and multiple linear regression models were built in OLS statsmodels, with price as the dependent variable. 
 ## Results
 Together, square footage, grade and bathrooms are the best predictors of a house's price in King County. These features were included in the final multiple regression model. The model satisfied all multiple regression assumptions, and p-values for each predictor variable were below .05. The r-squared value of the model was .529.
+<img src="https://github.com/AvonleaFisher/Predicting-King-County-House-Prices-with-Multiple-Regression-Analysis/blob/master/correlates_with_price.png">
+> Features were selected based on the strength of their linear relationship with price, and multicollinear features were excluded.
 ## Recommendations 
 Homeowners interested in selling their homes should focus on improving the design and quality of construction of their homes, which may in turn improve their home grade. If possible, they should also expand the square footage of living space on the lot, perhaps by building additional bathrooms. The square footage of neighbors' living space is also a strong positive predictor of price, but homeowners likely have less control over this factor. Homeowners may further increase the sale price of their homes by encouraging neighbors to also expand the square footage of their living space. 
 ## Limitations and Next Steps
